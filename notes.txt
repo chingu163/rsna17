@@ -1,0 +1,42 @@
+  622  mkdir ~/rsna17
+  623  cd ~/rsna17/
+  624  git init
+
+create empty repo
+
+  632  git add *
+
+add all files in current dir to staging
+
+  633  git status
+
+show changed files, staged files, untracked files
+
+  634  history 
+
+show previous commands
+
+  635  git commit -m "Initial commit" 
+
+commit staged files with message
+
+  636  git config --global user.email "sohn87@gmail.com"
+  637  git config --global user.name "Jae Sohn Ho"
+
+configure git user (one-time)
+
+  639  git commit -m "Initial commit"
+
+
+  640  git remote add origin https://github.com/chingu163/rsna17.git
+
+add remote repo (github, one-time)
+
+  641  git config credential.helper store
+
+make github remember password (one-time)
+
+  642  git push -u origin master
+
+push to remote
+
